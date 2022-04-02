@@ -1,0 +1,36 @@
+@use '../utils/functions.scss' as *;
+
+html {
+  // this helps with accessibility. user is able to adjust fontsize in their browser
+  font-size: 100%;
+  height: 100%;
+
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  background: #eee;
+  height: 100vh;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: rem(-10000);
+  top: auto;
+  width: rem(1);
+  height: rem(1);
+  overflow: hidden;
+}
