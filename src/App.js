@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import CompanyStrategy from './components/CompanyStrategy';
 import Chart from './components/Chart';
 import ContextualInfo from './components/ContextualInfo';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <CompanyStrategy />
       <Chart />
       <ContextualInfo />
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
