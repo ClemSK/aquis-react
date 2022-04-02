@@ -1,4 +1,6 @@
 import React from 'react'
+import LineGraph from './LineGraph'
+import MultiTypeChart from './MultiTypeChart'
 
 function Chart() {
     return (
@@ -40,7 +42,10 @@ function Chart() {
                 </div>
             </div>
             <div>
-                CHART
+                {/* <LineGraph /> */}
+            </div>
+            <div>
+                <MultiTypeChart />
             </div>
             <p>
                 MiFID II compliant pre- and post-trade transaction data is available here. The data is delayed by at least 15 minutes and will be refreshed every 15 minutes. 
