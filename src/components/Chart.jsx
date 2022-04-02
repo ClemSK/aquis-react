@@ -41,9 +41,9 @@ function Chart() {
                     </div>
                 </div>
             </div>
-            <div>
-                {/* <LineGraph /> */}
-            </div>
+            {/* <div>
+                <LineGraph />
+            </div> */}
             <div>
                 <MultiTypeChart />
             </div>

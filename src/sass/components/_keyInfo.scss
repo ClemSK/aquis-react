@@ -1,0 +1,19 @@
+.keyInfo-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  border: 4px white solid;
+  .keyInfo-title {
+    text-align: center;
+  }
+}
+
+.keyInfo-grid {
+  display: grid;
+  grid-row: 1;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(10px, auto);
+  padding: 10px;
+  place-items: start;
+}

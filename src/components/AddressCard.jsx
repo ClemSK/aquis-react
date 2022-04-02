@@ -2,8 +2,8 @@ import React from 'react'
 
 function AddressCard() {
     return (
-        <section>
-            <h2>Address</h2>
+        <section className='address-container'>
+            <h2 className='address-title'>Address</h2>
             <hr />
             <div>
                 <h3>Business Address</h3>

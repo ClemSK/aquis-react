@@ -2,21 +2,13 @@ import React from 'react'
 
 function KeyInfo() {
     return (
-        <section>
+        <section className='keyInfo-container'>
         <div>
-            <h2>Key Information</h2>
+            <h2 className='keyInfo-title'>Key Information</h2>
         </div>
-        <div>
-            
-
-
-
-
-
-
-
-
-
+        <hr />
+        <div className='keyInfo-grid'>
+        <div >
             <ul>
                 <li>Market Cap</li>
                 <li>ISIN</li>
@@ -41,6 +33,7 @@ function KeyInfo() {
                 <li>Real Estate Investment & Services</li>
                 <li>0.00% </li>
             </ul>
+        </div>
         </div>
         </section>
     )

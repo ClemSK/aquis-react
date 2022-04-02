@@ -9,6 +9,10 @@ Checklist
   - [x] structure
   - [ ] layout
   - [ ] styles
+    - [ ] Key Info cards
+      - [x] structure
+      - [x] layout
+      - [ ] styles
 
 - [ ] company strategy
 
@@ -22,28 +26,29 @@ Checklist
   - [ ] layout
   - [ ] styles
   - [x] fake data
+  - [ ] key with fake data
 
 - [ ] contextual info
 
   - [ ] Announcement cards
     - [x] structure
-    - [ ] layout
+    - [x] layout
     - [ ] styles
   - [ ] Trade card
     - [x] structure
-    - [ ] layout
+    - [x] layout
     - [ ] styles
   - [ ] Address card
     - [x] structure
-    - [ ] layout
+    - [x] layout
     - [ ] styles
   - [ ] Contact card
     - [x] structure
-    - [ ] layout
+    - [x] layout
     - [ ] styles
   - [ ] Research card
     - [x] structure
-    - [ ] layout
+    - [x] layout
     - [ ] styles
 
 - [ ] footer

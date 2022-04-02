@@ -18,7 +18,6 @@ const buildData = () => {
       {
         label: 'Price',
         // data: makeRandomDataArray(8),
-        // data: faker.finance.amount(),
         data: faker.commerce.price(),
         fill: false,
         backgroundColor: 'rgb(81, 214, 203)',
