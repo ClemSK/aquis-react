@@ -7,6 +7,7 @@ function Announcements() {
                 <h2>Latest Announcements</h2>
                 <span><a href="https://www.aquis.eu/aquis-stock-exchange/for-investors/announcements?securityidaqse=BSP">View All Announcements</a></span>
             </div>
+            <hr />
             <div>
                 <h3>Date & Time</h3>
                 <ul>

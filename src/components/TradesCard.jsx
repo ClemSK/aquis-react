@@ -4,6 +4,7 @@ function TradesCard() {
     return (
         <section>
             <h2>Trades</h2>
+            <hr />
             <div>
                 <h3>Date & Time</h3>
                 <ul>
