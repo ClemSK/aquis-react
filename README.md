@@ -21,7 +21,7 @@ Checklist
   - [x] structure
   - [ ] layout
   - [ ] styles
-  - [ ] fake data
+  - [x] fake data
 
 - [ ] contextual info
 
