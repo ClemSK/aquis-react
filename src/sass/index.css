@@ -74,4 +74,89 @@ a:active {
   color: pink;
 }
 
+.card-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 500px;
+  border: 4px white solid;
+}
+
+.card-grid {
+  display: grid;
+  grid-row: 3;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(10px, auto);
+  max-width: 600px;
+}
+
+.keyInfo-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  border: 4px white solid;
+}
+.keyInfo-container .keyInfo-title {
+  text-align: center;
+}
+
+.keyInfo-grid {
+  display: grid;
+  grid-row: 1;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(10px, auto);
+  padding: 10px;
+  place-items: start;
+}
+
+.announcement-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 800px;
+  border: 4px white solid;
+}
+
+.announcement-grid {
+  display: grid;
+  grid-template-columns: 200px 500px;
+  grid-template-rows: 90px 90px;
+  gap: 10px;
+  grid-auto-rows: minmax(10px, auto);
+  padding: 10px;
+  text-align: center;
+  max-width: 1000px;
+}
+
+.research-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  border: 4px white solid;
+}
+.research-container .research-title {
+  text-align: center;
+}
+
+.address-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  border: 4px white solid;
+}
+.address-container .address-title {
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  border: 4px white solid;
+}
+.contact-container .contact-title {
+  text-align: center;
+}
+
 /*# sourceMappingURL=index.css.map */

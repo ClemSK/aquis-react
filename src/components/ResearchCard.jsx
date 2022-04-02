@@ -2,9 +2,9 @@ import React from 'react'
 
 function ResearchCard() {
     return (
-      <section>
+      <section className='research-container'>
           <div>
-              <h3>Research</h3>
+              <h3 className='research-title'>Research</h3>
               <hr />
               <p>I'm sorry there is no research for this company.</p>
           </div>

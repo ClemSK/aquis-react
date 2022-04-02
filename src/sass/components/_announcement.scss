@@ -1,0 +1,20 @@
+.announcement-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 800px;
+  border: 4px white solid;
+}
+
+.announcement-grid {
+  display: grid;
+  //   grid-row: 1;
+  //   grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 200px 500px;
+  grid-template-rows: 90px 90px;
+  gap: 10px;
+  grid-auto-rows: minmax(10px, auto);
+  padding: 10px;
+  text-align: center;
+  max-width: 1000px;
+}

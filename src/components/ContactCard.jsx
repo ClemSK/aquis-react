@@ -2,8 +2,8 @@ import React from 'react'
 
 function ContactCard() {
     return (
-        <section>
-            <h2>Contact</h2>
+        <section className='contact-container'>
+            <h2 className='contact-title'>Contact</h2>
             <hr />
             <div>
                 <h3>Corporate Adviser</h3>

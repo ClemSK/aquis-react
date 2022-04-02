@@ -1,0 +1,18 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 500px;
+  border: 4px white solid;
+}
+
+.card-grid {
+  display: grid;
+  grid-row: 3;
+  grid-template-columns: repeat(3, 1fr);
+  //   gap: 10px;
+  grid-auto-rows: minmax(10px, auto);
+  //   padding: 10px;
+  //   text-align: center;
+  max-width: 600px;
+}
