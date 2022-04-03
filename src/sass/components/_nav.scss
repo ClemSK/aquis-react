@@ -1,2 +1,31 @@
 @use '../utils/functions.scss' as *;
 @use '../utils/breakpoints.scss' as *;
+@use '../globals/colors.scss' as *;
+@use '../globals/fonts.scss' as *;
+
+.navbar {
+  background: $gradient;
+  display: flex;
+  flex-direction: column;
+  justify-content: space space-between;
+  //   align-items: center;
+
+  //   text-align: start;
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    align-items: center;
+  }
+
+  li {
+    font: --font-roboto;
+    font-weight: 600;
+    span {
+      color: #ffffff;
+    }
+  }
+  img {
+    // margin-top: 10px;
+  }
+}
