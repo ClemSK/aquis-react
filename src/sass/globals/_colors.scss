@@ -1,3 +1,10 @@
 :root {
   --textClr: #eaeaea;
 }
+
+$gradient: linear-gradient(
+  rgb(26, 97, 119, 100%),
+  rgb(26, 97, 119, 80%),
+  rgb(26, 97, 119, 70%),
+  rgb(26, 97, 119, 35%)
+);

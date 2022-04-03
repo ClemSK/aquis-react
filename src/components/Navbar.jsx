@@ -1,20 +1,21 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-// import aquisLogo from '../public/aquisLogo.svg'
+import { Link, Router, BrowserRouter } from 'react-router-dom'
+import aquisLogo from '../assets/aquisLogo.svg'
 
 const Navbar = () => {
     return (
+        <>
+        <BrowserRouter>
         <div className='navbar'>
-            <h1>this is the navbar</h1>
             <ul>
                 <li>
                     <Link to='/' className='nav-logo'>
-                        {/* <img
+                        <img
               src={aquisLogo}
               alt='Aquis Exchange logo'
-              style={{ height: '50px', width: '50px' }}
-            /> */}
-            <span>Logo</span>
+              style={{ height: '50px', width: '200px' }}
+            />
+            {/* <span>Logo</span> */}
                     </Link>
                 </li>
                 <li>
@@ -54,6 +55,8 @@ const Navbar = () => {
                 </li>
             </ul>
         </div>
+        </BrowserRouter>
+        </>
     )
 }
 

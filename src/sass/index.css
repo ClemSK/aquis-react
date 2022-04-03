@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&family=Share+Tech+Mono&display=swap");
+:root {
+  --font-roboto: "Roboto", sans-serif;
+}
+
 :root {
   --textClr: #eaeaea;
 }
@@ -70,6 +75,25 @@ a:active {
   margin: 0 0 7.3125rem 7.9375rem;
 }
 
+.navbar {
+  background: linear-gradient(#1a6177, rgba(26, 97, 119, 0.8), rgba(26, 97, 119, 0.7), rgba(26, 97, 119, 0.35));
+  display: flex;
+  flex-direction: column;
+  justify-content: space space-between;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  align-items: center;
+}
+.navbar li {
+  font: --font-roboto;
+  font-weight: 600;
+}
+.navbar li span {
+  color: #ffffff;
+}
 .hello {
   color: pink;
 }
